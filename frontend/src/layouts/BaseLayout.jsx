@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 
 // Simple layout for OpenLife pages
 export default function BaseLayout({ title = 'OpenLife', subtitle = 'Daily Workflow & Time Management', children }) {
@@ -37,12 +38,7 @@ export default function BaseLayout({ title = 'OpenLife', subtitle = 'Daily Workf
         {children}
       </main>
 
-      <footer className="border-t border-white/10 bg-white/5 px-4 py-4">
-        <div className="mx-auto flex max-w-5xl items-center justify-between text-xs text-slate-400">
-          <span>Built with React + Vite + Tailwind</span>
-          <span>Contributions welcome</span>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
