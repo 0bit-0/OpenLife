@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer/Footer'
 
 // Simple layout for OpenLife pages
 export default function BaseLayout({ title = 'OpenLife', subtitle = 'Daily Workflow & Time Management', children }) {

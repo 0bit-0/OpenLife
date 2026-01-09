@@ -1,7 +1,7 @@
-import DailySummary from '../components/DailySummary'
-import GlassCard from '../components/GlassCard'
-import Tasks from '../components/Tasks'
-import Timer from '../components/Timer'
+import DailySummary from '../components/DailySummary/DailySummary'
+import GlassCard from '../components/GlassCard/GlassCard'
+import Tasks from '../components/Tasks/Tasks'
+import Timer from '../components/Timer/Timer'
 
 const Card = ({ title, children }) => (
   <div className="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-[0_12px_50px_rgba(15,23,42,0.35)]">

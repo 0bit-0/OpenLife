@@ -1,5 +1,5 @@
-import GlassCard from '../components/GlassCard'
-import Button from '../components/Button'
+import GlassCard from '../components/GlassCard/GlassCard'
+import Button from '../components/Button/Button'
 
 const steps = [
   { title: 'Fork the repository', body: 'Create your own copy of OpenLife on GitHub to work safely.' },
@@ -33,7 +33,7 @@ export default function Contribute() {
         {steps.map((step, idx) => (
           <GlassCard key={step.title} className="p-5">
             <div className="flex items-start gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-emerald-300 to-indigo-400 text-sm font-bold text-slate-950 shadow-[0_10px_24px_rgba(105,255,226,0.35)]">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-linear-to-br from-emerald-300 to-indigo-400 text-sm font-bold text-slate-950 shadow-[0_10px_24px_rgba(105,255,226,0.35)]">
                 {idx + 1}
               </div>
               <div className="space-y-1">

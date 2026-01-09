@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import BaseLayout from './layouts/BaseLayout'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contribute from './pages/Contribute'
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Contribute from './pages/Contribute/Contribute'
 
 export default function App() {
   return (

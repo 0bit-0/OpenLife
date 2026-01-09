@@ -1,4 +1,4 @@
-import GlassCard from '../components/GlassCard'
+import GlassCard from '../components/GlassCard/GlassCard'
 
 export default function About() {
   return (
