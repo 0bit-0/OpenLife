@@ -12,9 +12,17 @@ dist
 dist-ssr
 *.local
 
+# dotenv environment variable files
 .env
 .env.*.local
 .env.local
+.env.development.local
+.env.test.local
+.env.production
+.env.development
+.env.staging
+.env.production.local
+
 .npmrc
 .yarnrc
 .pnp.*
