@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
+import Chatbot from '../components/ChatBot/Chatbot'
 
 // Simple layout for OpenLife pages
 export default function BaseLayout({ title = 'OpenLife', subtitle = 'Daily Workflow & Time Management', children }) {
@@ -16,6 +17,7 @@ export default function BaseLayout({ title = 'OpenLife', subtitle = 'Daily Workf
       </main>
 
       <Footer />
+      <Chatbot />
     </div>
   )
 }

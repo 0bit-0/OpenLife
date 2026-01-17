@@ -14,21 +14,21 @@ export default function Contribute() {
     <div className="space-y-8">
       <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
         <div className="flex flex-col gap-3">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">Community</p>
-        <h1 className="text-3xl font-bold text-white sm:text-4xl">Contributing to OpenLife</h1>
-        <p className="w-full text-base text-slate-200/85">
-          OpenLife thrives on clear, welcoming workflows. Follow the steps below, ship improvements, and leave the project better for
-          the next contributor.
-        </p>
-        <div className="flex flex-wrap gap-3">
-          <Button to="https://github.com/" variant="primary">
-            Open GitHub
-          </Button>
-          <Button to="/" variant="secondary">
-            Back to Home
-          </Button>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">Community</p>
+          <h1 className="text-3xl font-bold text-white sm:text-4xl">Contributing to OpenLife</h1>
+          <p className="w-full text-base text-slate-200/85">
+            OpenLife thrives on clear, welcoming workflows. Follow the steps below, ship improvements, and leave the project better for
+            the next contributor.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Button to="https://github.com/" variant="primary">
+              Open GitHub
+            </Button>
+            <Button to="/" variant="secondary">
+              Back to Home
+            </Button>
+          </div>
         </div>
-      </div>
       </div>
 
       <div className="grid gap-4 md:grid-cols-2">
