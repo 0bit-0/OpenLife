@@ -113,6 +113,57 @@ git fetch origin
 git checkout main
 git pull origin main
 
+
+This below commands for main branch owner only @bhupindersehjal
+
+# 1️⃣ Go to your project folder
+cd your-project
+
+# 2️⃣ Switch to main branch
+git checkout main
+
+# 3️⃣ Pull latest changes from remote main
+git pull origin main
+
+# 4️⃣ Create a new feature branch from main
+git checkout -b feature/help-bot
+
+# 5️⃣ Check current branch and file status
+git status
+
+# 6️⃣ Add specific files (recommended)
+git add src/components/HelpBot.jsx
+
+# OR add all changed files
+git add .
+
+# 7️⃣ Commit changes with a clear message
+git commit -m "feat: add help bot component"
+
+# 8️⃣ Push the new branch to GitHub (first time)
+git push -u origin feature/help-bot
+
+👉 Now go to GitHub → Click “Compare & pull request” → Create PR → Merge
+
  
+✅ After PR Is Merged (Cleanup Commands)
+# 9️⃣ Switch back to main branch
+git checkout main
+
+# 🔟 Pull the merged changes
+git pull origin main
+
+# 1️⃣1️⃣ Delete local feature branch
+git branch -d feature/help-bot
+
+# 1️⃣2️⃣ Delete remote feature branch
+git push origin --delete feature/help-bot
 
 
+🔁 If You Update Code After Creating PR
+# Make changes
+git add .
+git commit -m "fix: improve help bot UI"
+
+# Push again (PR updates automatically)
+git push
