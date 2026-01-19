@@ -7,7 +7,7 @@ const linkClass =
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-30 mb-6 bg-transparent backdrop-blur-xl">
+    <header className="sticky top-0 z-30 bg-transparent backdrop-blur-xl">
       <div className="flex w-full items-center justify-between gap-4 px-[var(--page-gutter)] py-3">
         <Link className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.14em] text-emerald-100" to="/">
           <img className="h-12 w-12 object-contain" src={OpenLifeLogo} alt="OpenLife logo" />
