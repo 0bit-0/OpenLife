@@ -2,6 +2,7 @@ import DailySummary from '../../components/DailySummary/DailySummary'
 import Tasks from './../../components/Tasks/Tasks'
 import Timer from '../../components/Timer/Timer'
 import Button from '../../components/Button/Button'
+import Checks365 from '../../components/Checks365/Checks365'
 
 const Card = ({ title, children }) => (
   <div className="hover-grid group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-emerald-200/50 hover:bg-white/10 hover:shadow-[0_20px_60px_rgba(15,23,42,0.45)]">
@@ -13,6 +14,7 @@ const Card = ({ title, children }) => (
 export default function Home() {
   return (
     <div className="space-y-8">
+      <Checks365 />
       <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="hover-grid rounded-2xl border border-emerald-300/30 bg-emerald-300/10 p-7 backdrop-blur">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">Welcome</p>
