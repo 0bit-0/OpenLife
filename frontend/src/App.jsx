@@ -45,7 +45,7 @@ export default function App() {
         path="/daily"
         element={
           <BaseLayout title="OpenLife UI Showcase" subtitle="Reusable components and patterns">
-            <TimeUsageTracker/>
+            <TimeUsageTracker />
           </BaseLayout>
         }
       />
