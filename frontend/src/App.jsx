@@ -42,7 +42,7 @@ export default function App() {
         }
       />
       <Route
-        path="/daily"
+        path="/daily-TimeUsageTracker"
         element={
           <BaseLayout title="OpenLife UI Showcase" subtitle="Reusable components and patterns">
             <TimeUsageTracker />
