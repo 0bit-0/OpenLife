@@ -172,7 +172,7 @@ const TimeUsageTracker = () => {
                 </div>
               </div>
 
-              {/* Notes */}
+             
               <div className="md:col-span-2">
                 <label className="block text-xs font-semibold uppercase tracking-[0.15em] text-slate-300 mb-2">
                   <FileText className="w-3 h-3 inline mr-1" />
