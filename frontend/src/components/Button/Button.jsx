@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 const styles = {
-  base: 'inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300',
+  base: 'hover-grid inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300',
   primary:
     'bg-gradient-to-r from-emerald-300 to-indigo-400 text-slate-950 shadow-[0_12px_30px_rgba(105,255,226,0.35)] hover:-translate-y-0.5 hover:shadow-[0_16px_40px_rgba(105,255,226,0.45)]',
   secondary:

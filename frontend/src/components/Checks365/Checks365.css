@@ -1,0 +1,47 @@
+/* DaysGrid.css */
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--dot-size), 1fr));
+  gap: var(--dot-gap);
+  width: 100%;
+  max-width: min(100%, 329vh);
+  margin: 0 auto;
+}
+
+.day-dot {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.day-dot-past {
+  background: #b91c1c;
+  border-color: #b91c1c;
+}
+
+.day-dot-current {
+  background: #15803d;
+  border-color: #15803d;
+}
+
+.day-dot-future {
+  background: #ffffff;
+  border-color: #d1d5db;
+}
+
+.day-dot:hover {
+  transform: scale(1.08);
+  border-color: #999;
+}
+
+.day-dot.selected {
+  background: #2b8a3e; /* selected color */
+  border-color: #2b8a3e;
+}
